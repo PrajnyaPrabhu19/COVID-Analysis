@@ -15,7 +15,7 @@ ACCESS_SECRET = config.twitter['accessSecret']
 class StreamListener(tweepy.StreamListener):
     def on_data(self, data):
         try:
-            with open('LiveStream27oct.json', 'a') as f:
+            with open('LiveStream13jan.json', 'a') as f:
                 f.write(data)
                 return True
         except BaseException as e:
