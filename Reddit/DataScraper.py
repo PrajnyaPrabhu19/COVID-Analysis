@@ -3,7 +3,7 @@ import pandas as pd
 from praw.models import MoreComments
 
 
-reddit = praw.Reddit(client_id='grAXAOXOnMJt9A', client_secret='A8I1AW0ysmsZrMSUmdqNCkc6jXZTNw', user_agent='ScrapeBot')
+reddit = praw.Reddit(client_id='CLIENT_ID', client_secret='CLIENT_SECRET', user_agent='AGENT_NAME')
 
 posts = []
 subreddit = reddit.subreddit('COVID19')
